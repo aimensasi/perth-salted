@@ -1,0 +1,333 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+*{
+    outline: 0 !important;
+}
+@font-face {
+    font-family: "blackjack";
+    src:url('../fonts/blackjack.otf');
+}
+
+
+.nav-menu{
+    background-color: #f3787a;
+    opacity: .8;
+    height: 650px;
+    width: 100%;
+    position: absolute !important;
+}
+
+.ic-close{
+    font-size: 3rem;
+    float: right;
+    margin: 14px 376px 0 0;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    float: none ;
+    padding-top: 150px;
+}
+
+.nav-link{
+    color: white ;
+    
+}
+
+.nav-link:hover{
+    color: #61c0e7;
+}
+
+.nav-item{
+    margin-bottom: 15px;
+}
+
+.nav-link i{
+    background-color: white;
+    padding: 15px 12.5px;
+    border-radius: 35px;
+    margin-right: 20px;
+    color: #61c0e7;
+}
+
+.header{
+    height: 650px;
+    background: linear-gradient(135deg, #61c0e7 50%, #63c2e7 50%);
+    background-size: 80px 80px;
+    overflow: hidden;
+
+}
+
+.navbar-toggler{
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    position: absolute;
+    
+}
+
+.navbar-flex{
+    display: flex;
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.lead-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.lead-title{
+    font-family: 'blackjack', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-bottom: 15px;
+    margin-top: 80px;
+    
+}
+
+.lead-p{
+    margin-left: auto;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+
+.btn-secondary{
+    background-color: transparent;
+    border: thin solid white;
+    margin-left: auto;
+    width: 150px;
+    color: white;
+    
+}
+
+.btn-secondary i{
+    color: white;
+    margin-left: 8px;
+}
+
+.iphone{
+    margin-right: auto;
+    margin-left: 150px;
+    overflow-y: hidden;
+}
+
+
+.btn-secondary:hover{
+    background: #42acd4;
+    border-color: #42acd4;
+    color: white;
+}
+
+.content-2{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.md-content{
+    
+    margin-right: auto;
+}
+
+.img{
+    padding: 0;
+    margin-top: 50px;
+}
+
+.ipad{
+    float: right;
+}
+
+.md-content .lead-title, .l-content .lead-title{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.md-content .lead-p, .l-content .lead-p{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.md-content .btn-secondary{
+    background-color: transparent;
+    border: thin solid #14af8f;
+    margin-left: auto;
+    width: 150px;
+    color: #14af8f;
+    
+}
+.md-content .btn-secondary i{
+    color: #14af8f;
+    
+}
+
+.md-content .lead-p:nth-child(3){
+    border-left: 5px solid #42acd4;
+    padding-left: 15px;
+}
+
+.body-1, .body-2{
+    overflow: hidden;
+    height: 680px;
+}
+
+.body-1{
+    background: #f4f4f4;
+    height: 600px;
+}
+
+.body-2 .row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.l-content{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.l-content .btn-secondary{
+    background-color: transparent;
+    border: thin solid #ea4c89;
+    width: 180px;
+    color: #ea4c89;
+}
+
+.l-content .btn-secondary i{
+    color: #ea4c89;
+}
+
+.img-devices{
+    margin-top: -150px;
+    margin-left: -15px;
+}
+
+
+.beer{
+    height: 300px;
+    text-align: center;
+}
+
+.beer h3{
+    margin-top: 130px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+
+.beer button{
+    width: 200px;
+}
+
+.social{
+    height: 500px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 250px 0;
+}
+
+.icon{
+    border: 1.2px solid black;
+    border-radius: 45px;
+    padding: 15px !important ; 
+    color: black !important;
+}
+
+.f-icon{
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+}
+
+.divider{
+    color: #42acd4;
+    font-size: 1rem;
+    position: absolute;
+}
+
+.form-inline{
+    margin: 55px auto;
+}
+.form-inline input{
+    border-radius: 5px;
+    margin-left: 15px;
+    border: none;
+    
+}
+
+.form-inline .btn-secondary{
+    width: 60px;
+    background-color: white;
+    position: relative;
+    
+}
+.form-inline .btn-secondary i{
+    color: #42acd4;
+    padding-left: 5px;
+}
+
+
+.footer{
+    height: 100px;
+    display: flex;
+}
+
+.c-right{
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+.c-right span{
+    color: #42acd4;
+}
+
+.up{
+    margin-right: 100px;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.up a, .up a:hover{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+
+
+
+.down:hover, .down:hover i{
+    color: #42acd4;
+    background-color: white;
+}
+
+.hello:hover, .hello:hover i{
+    color: #fff;
+    background-color: #14af8f;
+}
+
+.dribble:hover, .dribble:hover i{
+    color: #fff;
+    background-color: #ea4c89;
+}
+
+
+
